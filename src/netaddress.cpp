@@ -4,7 +4,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifdef HAVE_CONFIG_H
-#include "config/dash-config.h"
+#include "config/spice-config.h"
 #endif
 
 #include "netaddress.h"

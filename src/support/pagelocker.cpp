@@ -5,7 +5,7 @@
 #include "support/pagelocker.h"
 
 #if defined(HAVE_CONFIG_H)
-#include "config/dash-config.h"
+#include "config/spice-config.h"
 #endif
 
 #ifdef WIN32
