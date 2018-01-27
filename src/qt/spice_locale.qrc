@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/spice_bg.qm</file>
+        <file alias="de">locale/spice_de.qm</file>
+        <file alias="en">locale/spice_en.qm</file>
+        <file alias="es">locale/spice_es.qm</file>
+        <file alias="fi">locale/spice_fi.qm</file>
+        <file alias="fr">locale/spice_fr.qm</file>
+        <file alias="it">locale/spice_it.qm</file>
+        <file alias="ja">locale/spice_ja.qm</file>
+        <file alias="pl">locale/spice_pl.qm</file>
+        <file alias="pt">locale/spice_pt.qm</file>
+        <file alias="ru">locale/spice_ru.qm</file>
+        <file alias="sk">locale/spice_sk.qm</file>
+        <file alias="sv">locale/spice_sv.qm</file>
+        <file alias="vi">locale/spice_vi.qm</file>
+        <file alias="zh_CN">locale/spice_zh_CN.qm</file>
+        <file alias="zh_TW">locale/spice_zh_TW.qm</file>
+    </qresource>
+</RCC>
