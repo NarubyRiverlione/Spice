@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C .. dash_test
+	$(MAKE) -C .. spice_test
 clean:
-	$(MAKE) -C .. dash_test_clean
+	$(MAKE) -C .. spice_test_clean
 check:
-	$(MAKE) -C .. dash_test_check
+	$(MAKE) -C .. spice_test_check

@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Dash
-Comment=Dash P2P Cryptocurrency
-Comment[fr]=Dash, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Dash, eşten eşe kriptografik sanal para birimi
-Exec=dash-qt %u
+Name=Spice
+Comment=Spice P2P Cryptocurrency
+Comment[fr]=Spice, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Spice, eşten eşe kriptografik sanal para birimi
+Exec=spice-qt %u
 Terminal=false
 Type=Application
-Icon=dash128
-MimeType=x-scheme-handler/dash;
+Icon=spice128
+MimeType=x-scheme-handler/spice;
 Categories=Office;Finance;
