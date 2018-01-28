@@ -127,26 +127,26 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 32-bit integer with any alignment.
          */
-        pchMessageStart[0] = 0xbf;
-        pchMessageStart[1] = 0x0c;
-        pchMessageStart[2] = 0x6b;
-        pchMessageStart[3] = 0xbd;
+        pchMessageStart[0] = 0x42;
+        pchMessageStart[1] = 0x19;
+        pchMessageStart[2] = 0x65;
+        pchMessageStart[3] = 0xa0;
         vAlertPubKey = ParseHex("048240a8748a80a286b270ba126705ced4f2ce5a7847b3610ea3c06513150dade2a8512ed5ea86320824683fc0818f0ac019214973e677acd1244f6d0571fc5103");
-        nDefaultPort = 9999;
+        nDefaultPort = 1965;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nDelayGetHeadersTime = 24 * 60 * 60;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1390095618, 28917698, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1518571425, 2302454, 0x1e0ffff0, 1, 10 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000ffd590b1485b3caadc19b22e6379c733355108f107a430458cdf3407ab6"));
-        assert(genesis.hashMerkleRoot == uint256S("0xe0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000f0ea74d75707bc71c0bd6c8c4a3901844cbe1634b4bddb6ccc2bcc35bce"));
+        assert(genesis.hashMerkleRoot == uint256S("0x75f1274d7b5271c9ae118b281cebf6c68fdc55b5721ef89fdfe6bca6db92d5be"));
 
 
         vSeeds.push_back(CDNSSeedData("spice.org", "dnsseed.spice.org"));
 
-        // Spice addresses start with 'X'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,76);
+        // Spice addresses start with 'S'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,55);
         // Spice script addresses start with '7'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,16);
         // Spice private keys start with '7' or 'X'
@@ -173,12 +173,11 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x0")),
-             // 1500, uint256S("0x000000aaf0300f59f49bc3e970bad15c11f961fe2347accffff19d96ec9778e3"))
-             0, // * 1507424630 UNIX timestamp of last checkpoint block
-             0, // * 3701128 total number of transactions between genesis and last checkpoint
+            ( 0, uint256S("0x00000f0ea74d75707bc71c0bd6c8c4a3901844cbe1634b4bddb6ccc2bcc35bce")),
+             1518571425, // *  UNIX timestamp of last checkpoint block
+             0, // *  total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-             0  // * 5000 estimated number of transactions per day after checkpoint
+             0  // *  estimated number of transactions per day after checkpoint
         };
     }
 };
@@ -241,28 +240,27 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x0"); // 0x0000000004f5aef732d572ff514af99a995702c92e4452c7af10858231668b1f = 37900
 
-        pchMessageStart[0] = 0xce;
-        pchMessageStart[1] = 0xe2;
-        pchMessageStart[2] = 0xca;
-        pchMessageStart[3] = 0xff;
+        pchMessageStart[0] = 0x42;
+        pchMessageStart[1] = 0x19;
+        pchMessageStart[2] = 0x65;
+        pchMessageStart[3] = 0xb1;
         vAlertPubKey = ParseHex("04517d8a699cb43d3938d7b24faaff7cda448ca4ea267723ba614784de661949bf632d6304316b244646dea079735b9a6fc4af804efb4752075b9fe2245e14e412");
-        nDefaultPort = 19999;
+        nDefaultPort = 2965;
         nMaxTipAge = 0x7fffffff; // allow mining on top of old blocks for testnet
         nDelayGetHeadersTime = 24 * 60 * 60;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1390666206UL, 3861367235UL, 0x1e0ffff0, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1517150000UL, 539002UL, 0x1e0ffff0, 1, 10 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000bafbc94add76cb75e2ec92894837288a481e5c005f6563d91623bf8bc2c"));
-        assert(genesis.hashMerkleRoot == uint256S("0xe0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000af2765a3d89ebaf355eb1612c234c6c2e56674ed25c34860bb4b1c43d26"));
+        assert(genesis.hashMerkleRoot == uint256S("0x75f1274d7b5271c9ae118b281cebf6c68fdc55b5721ef89fdfe6bca6db92d5be"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("spicedot.io",  "testnet-seed.spicedot.io"));
-        vSeeds.push_back(CDNSSeedData("masternode.io", "test.dnsseed.masternode.io"));
 
-        // Testnet Spice addresses start with 'y'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
+        // Testnet Spice addresses start with 'p'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,117);
         // Testnet Spice script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
         // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
@@ -289,13 +287,11 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (0, uint256S("0x0")),
-             //261, uint256S("0x00000c26026d0815a7e2ce4fa270775f61403c040647ff2c3091f99e894a4618"))
-         
-            0, // * 1462856598 UNIX timestamp of last checkpoint block
-            0,       // * 3094 total number of transactions between genesis and last checkpoint
+            (0, uint256S("0x00000af2765a3d89ebaf355eb1612c234c6c2e56674ed25c34860bb4b1c43d26")),
+            1517150000, // *  UNIX timestamp of last checkpoint block
+            0,          // *  total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
-            0         // * 500 estimated number of transactions per day after checkpoint
+            0           // *  estimated number of transactions per day after checkpoint
         };
 
     }
@@ -330,7 +326,7 @@ public:
         consensus.BIP34Hash = uint256();
         consensus.powLimit = uint256S("7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         consensus.nPowTargetTimespan = 24 * 60 * 60; // Spice: 1 day
-        consensus.nPowTargetSpacing = 2.5 * 60; // Spice: 2.5 minutes
+        consensus.nPowTargetSpacing = 1 * 60; // Spice: 2.5 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.fPowNoRetargeting = true;
         consensus.nPowKGWHeight = 15200; // same as mainnet
@@ -353,19 +349,19 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x00");
 
-        pchMessageStart[0] = 0xfc;
-        pchMessageStart[1] = 0xc1;
-        pchMessageStart[2] = 0xb7;
-        pchMessageStart[3] = 0xdc;
+        pchMessageStart[0] = 0x42;
+        pchMessageStart[1] = 0x19;
+        pchMessageStart[2] = 0x65;
+        pchMessageStart[3] = 0xc3;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nDelayGetHeadersTime = 0; // never delay GETHEADERS in regtests
-        nDefaultPort = 19994;
+        nDefaultPort = 3965;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1417713337, 1096447, 0x207fffff, 1, 50 * COIN);
+        genesis = CreateGenesisBlock(1517150000, 3, 0x207fffff, 1, 10 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x000008ca1832a4baf228eb1553c03d3a2c8e02399550dd6ea8d65cec3ef23d2e"));
-        assert(genesis.hashMerkleRoot == uint256S("0xe0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7"));
+        assert(consensus.hashGenesisBlock == uint256S("0x52e7c371b494cdb4f8f31eacc2de0665a027c8dbac66deb47e8c3663a24c6620"));
+        assert(genesis.hashMerkleRoot == uint256S("0x75f1274d7b5271c9ae118b281cebf6c68fdc55b5721ef89fdfe6bca6db92d5be"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();  //! Regtest mode doesn't have any DNS seeds.
@@ -380,13 +376,13 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0x0")), // 0x000008ca1832a4baf228eb1553c03d3a2c8e02399550dd6ea8d65cec3ef23d2e
-            0,
+            ( 0, uint256S("0x52e7c371b494cdb4f8f31eacc2de0665a027c8dbac66deb47e8c3663a24c6620")),
+            1517150000,
             0,
             0
         };
-        // Regtest Spice addresses start with 'y'
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,140);
+        // Regtest Spice addresses start with 'i'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,102);
         // Regtest Spice script addresses start with '8' or '9'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,19);
         // Regtest private keys start with '9' or 'c' (Bitcoin defaults)
