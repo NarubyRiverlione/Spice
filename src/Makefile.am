@@ -480,9 +480,9 @@ spice_tx_LDADD = \
 spice_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
-# spiceconsensus library #
+# dashconsensus library #
 if BUILD_BITCOIN_LIBS
-include_HEADERS = script/spiceconsensus.h
+include_HEADERS = script/dashconsensus.h
 libdashconsensus_la_SOURCES = \
   crypto/hmac_sha512.cpp \
   crypto/ripemd160.cpp \
@@ -492,7 +492,7 @@ libdashconsensus_la_SOURCES = \
   hash.cpp \
   primitives/transaction.cpp \
   pubkey.cpp \
-  script/spiceconsensus.cpp \
+  script/dashconsensus.cpp \
   script/interpreter.cpp \
   script/script.cpp \
   uint256.cpp \
