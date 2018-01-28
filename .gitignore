@@ -10,8 +10,8 @@ src/spice
 src/spiced
 src/spice-cli
 src/spice-tx
-src/test/test_spice
-src/qt/test/test_spice-qt
+src/test/test_dash
+src/qt/test/test_dash-qt
 src/bench/bench_spice
 
 # autoreconf
@@ -100,7 +100,7 @@ build
 *.gcno
 *.gcda
 /*.info
-test_spice.coverage/
+test_dash.coverage/
 total.coverage/
 coverage_percent.txt
 

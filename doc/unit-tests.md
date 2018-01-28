@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with `make check`.
 
-To run the spiced tests manually, launch `src/test/test_spice`.
+To run the spiced tests manually, launch `src/test/test_dash`.
 
 To add more spiced tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the `test/` directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the spice-qt tests manually, launch `src/qt/test/test_spice-qt`
+To run the spice-qt tests manually, launch `src/qt/test/test_dash-qt`
 
 To add more spice-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

@@ -1,9 +1,9 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 
-#DEB_MAKE_CHECK_TARGET = test_spice
+#DEB_MAKE_CHECK_TARGET = test_dash
 #build/spiced::
-#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_spice)
+#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_dash)
 
 DEB_INSTALL_EXAMPLES_spiced += debian/examples/*
 DEB_INSTALL_MANPAGES_spiced += debian/manpages/*
