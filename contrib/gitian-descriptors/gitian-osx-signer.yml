@@ -8,7 +8,7 @@ packages:
 - "faketime"
 reference_datetime: "2017-01-01 00:00:00"
 remotes:
-- "url": "https://github.com/spicepay/spice-detached-sigs.git"
+- "url": "https://github.com/NarubyRiverlione/spice-detached-sigs.git"
   "dir": "signature"
 files:
 - "spice-osx-unsigned.tar.gz"
