@@ -92,10 +92,10 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     }
     
     /* Theme selector */
-    ui->theme->addItem(QString("SPICE-light"), QVariant("light"));
-    ui->theme->addItem(QString("SPICE-light-hires"), QVariant("light-hires"));
-    ui->theme->addItem(QString("SPICE-blue"), QVariant("drkblue"));
-    ui->theme->addItem(QString("SPICE-Crownium"), QVariant("crownium"));
+   // ui->theme->addItem(QString("SPICE-light"), QVariant("light"));
+   // ui->theme->addItem(QString("SPICE-light-hires"), QVariant("light-hires"));
+   // ui->theme->addItem(QString("SPICE-blue"), QVariant("drkblue"));
+   // ui->theme->addItem(QString("SPICE-Crownium"), QVariant("crownium"));
     ui->theme->addItem(QString("SPICE-traditional"), QVariant("trad"));
     
     /* Language selector */
