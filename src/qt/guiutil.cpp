@@ -907,7 +907,7 @@ QString getThemeName()
     if(!theme.isEmpty()){
         return theme;
     }
-    return QString("light");  
+    return QString("trad");  
 }
 
 // Open CSS when configured
@@ -922,8 +922,8 @@ QString loadStyleSheet()
         cssName = QString(":/css/") + theme; 
     }
     else {
-        cssName = QString(":/css/light");  
-        settings.setValue("theme", "light");
+        cssName = QString(":/css/trad");  
+        settings.setValue("theme", "trad");
     }
     
     QFile qFile(cssName);      

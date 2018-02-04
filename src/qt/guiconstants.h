@@ -49,9 +49,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "Spice"
-#define QAPP_ORG_DOMAIN "spice.org"
-#define QAPP_APP_NAME_DEFAULT "Spice-Qt"
-#define QAPP_APP_NAME_TESTNET "Spice-Qt-testnet"
+#define QAPP_ORG_NAME "Dune Spice"
+#define QAPP_ORG_DOMAIN "dunespice.eu"
+#define QAPP_APP_NAME_DEFAULT "DuneSpice"
+#define QAPP_APP_NAME_TESTNET "DuneSpice--testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H
