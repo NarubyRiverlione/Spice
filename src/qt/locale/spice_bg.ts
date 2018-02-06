@@ -188,8 +188,8 @@
         <translation>Портфейлът е шифриран</translation>
     </message>
     <message>
-        <source>Spice Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spices from being stolen by malware infecting your computer.</source>
-        <translation>Spice Core ще се затвори за да завърши процеса на криптиране. Запомнете, това криптира вашият портфейл, но не може да защити вашите Spice от вируси заразили  компютъра Ви.</translation>
+        <source>Dune Spice will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spices from being stolen by malware infecting your computer.</source>
+        <translation>Dune Spice ще се затвори за да завърши процеса на криптиране. Запомнете, това криптира вашият портфейл, но не може да защити вашите Spice от вируси заразили  компютъра Ви.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,11 +242,11 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Spice Core can no longer continue safely and will quit.</source>
-        <translation>Възникна фатална грешка. Spice Core не може да продължи безопасно и ще се изключи.</translation>
+        <source>A fatal error occurred. Dune Spice can no longer continue safely and will quit.</source>
+        <translation>Възникна фатална грешка. Dune Spice не може да продължи безопасно и ще се изключи.</translation>
     </message>
     <message>
-        <source>Spice Core</source>
+        <source>Dune Spice</source>
         <translation>Spice Ядро</translation>
     </message>
     <message>
@@ -306,12 +306,12 @@
         <translation>Изход от приложението</translation>
     </message>
     <message>
-        <source>&amp;About Spice Core</source>
+        <source>&amp;About Dune Spice</source>
         <translation>&amp;За Spice ядрото</translation>
     </message>
     <message>
-        <source>Show information about Spice Core</source>
-        <translation>Покаци информация за Spice Core</translation>
+        <source>Show information about Dune Spice</source>
+        <translation>Покаци информация за Dune Spice</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -326,8 +326,8 @@
         <translation>&amp;Опции...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Spice Core</source>
-        <translation>Промяна опциите за конфигуриране на Spice Core</translation>
+        <source>Modify configuration options for Dune Spice</source>
+        <translation>Промяна опциите за конфигуриране на Dune Spice</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -482,8 +482,8 @@
         <translation>&amp;Опции на командния ред</translation>
     </message>
     <message>
-        <source>Show the Spice Core help message to get a list with possible Spice Core command-line options</source>
-        <translation>Покажи съобщението за помощ на Spice Core за да получите списък с възможните опции за командния ред на Spice Core</translation>
+        <source>Show the Dune Spice help message to get a list with possible Dune Spice command-line options</source>
+        <translation>Покажи съобщението за помощ на Dune Spice за да получите списък с възможните опции за командния ред на Dune Spice</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
@@ -514,8 +514,8 @@
         <translation>Лента с инструменти</translation>
     </message>
     <message>
-        <source>Spice Core client</source>
-        <translation>Spice Core клиент</translation>
+        <source>Dune Spice client</source>
+        <translation>Dune Spice клиент</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Spice network</source>
@@ -982,7 +982,7 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Spice Core</source>
+        <source>Dune Spice</source>
         <translation>Spice ядро</translation>
     </message>
     <message>
@@ -994,7 +994,7 @@
         <translation>(%1-битов)</translation>
     </message>
     <message>
-        <source>About Spice Core</source>
+        <source>About Dune Spice</source>
         <translation>За Spice ядрото</translation>
     </message>
     <message>
@@ -1053,15 +1053,15 @@
         <translation>Добре дошли</translation>
     </message>
     <message>
-        <source>Welcome to Spice Core.</source>
+        <source>Welcome to Dune Spice.</source>
         <translation>Добре дошли в ядрото на Spice.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Spice Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where Dune Spice will store its data.</source>
         <translation>Тъй като програмата се стартира за първи път вие може да изберете къде Spice да съхранява своята информация.</translation>
     </message>
     <message>
-        <source>Spice Core will download and store a copy of the Spice block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>Dune Spice will download and store a copy of the Spice block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>Spice ще свали и съхрани копие на Spice регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
     </message>
     <message>
@@ -1073,7 +1073,7 @@
         <translation>Определете папка по ваш избор:</translation>
     </message>
     <message>
-        <source>Spice Core</source>
+        <source>Dune Spice</source>
         <translation>Spice ядро</translation>
     </message>
     <message>
@@ -1325,12 +1325,12 @@
         <translation>П&amp;ортфейл</translation>
     </message>
     <message>
-        <source>Automatically start Spice Core after logging in to the system.</source>
-        <translation>Автоматично стартиране на Spice Core след влизане в системата.</translation>
+        <source>Automatically start Dune Spice after logging in to the system.</source>
+        <translation>Автоматично стартиране на Dune Spice след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start Spice Core on system login</source>
-        <translation>&amp;Стартиране на Spice Core при влизане</translation>
+        <source>&amp;Start Dune Spice on system login</source>
+        <translation>&amp;Стартиране на Dune Spice при влизане</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1377,8 +1377,8 @@
         <translation>Тази сума действа като лимит, за да се изключи PrivateSend, когато веднъж бъде достигнат.</translation>
     </message>
     <message>
-        <source>Automatically open the Spice Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваря порта за Spice Core клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
+        <source>Automatically open the Dune Spice client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваря порта за Dune Spice клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1401,8 +1401,8 @@
         <translation>При затваряне на прозореца приложението остава минимизирано. Ако изберете тази опция, приложението може да се затвори само чрез Изход в менюто.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Spice Core.</source>
-        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на Spice Core. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Dune Spice.</source>
+        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на Dune Spice. </translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1969,8 +1969,8 @@ https://www.transifex.com/projects/p/spice/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1989,8 +1989,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Грешка при четене конфигурационният файл на masternode : %1</translation>
     </message>
     <message>
-        <source>Spice Core didn't yet exit safely...</source>
-        <translation>Spice Core все още не е приключило ...</translation>
+        <source>Dune Spice didn't yet exit safely...</source>
+        <translation>Dune Spice все още не е приключило ...</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -2163,8 +2163,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Използвана памет</translation>
     </message>
     <message>
-        <source>Open the Spice Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отваря файла за откриване на грешки на Spice Core от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
+        <source>Open the Dune Spice debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отваря файла за откриване на грешки на Dune Spice от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2379,8 +2379,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>&amp;Премахване на бан</translation>
     </message>
     <message>
-        <source>Welcome to the Spice Core RPC console.</source>
-        <translation>Добре дошли в Spice Core RPC конзолата.</translation>
+        <source>Welcome to the Dune Spice RPC console.</source>
+        <translation>Добре дошли в Dune Spice RPC конзолата.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -3025,7 +3025,7 @@ https://www.transifex.com/projects/p/spice/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Spice Core is shutting down...</source>
+        <source>Dune Spice is shutting down...</source>
         <translation>Spice ядрото се изключва...</translation>
     </message>
     <message>
@@ -3179,7 +3179,7 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>Spice Core</source>
+        <source>Dune Spice</source>
         <translation>Spice Ядро</translation>
     </message>
     <message>
@@ -3191,7 +3191,7 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Водещи Bitcoin разработчици</translation>
     </message>
     <message>
-        <source>The Spice Core developers</source>
+        <source>The Dune Spice developers</source>
         <translation>Водещи Spice разработчици</translation>
     </message>
 </context>
@@ -3789,7 +3789,7 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Свързва се с посочения адрес и винаги слуша за него. Използвайте [хост]:порт за изписване при IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Spice Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Dune Spice is probably already running.</source>
         <translation>Не може да се заключи дата директорията %s. Spice ядрото вече работи.</translation>
     </message>
     <message>
@@ -3829,7 +3829,7 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Това е предварителна тест версия - използвайте я на ваша отговорност - не използвайте за копане или за търговски приложения.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Spice Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Dune Spice is probably already running.</source>
         <translation>Не може да се свърже с %s на този компютър. Spice ядрото най-вероятно вече работи.</translation>
     </message>
     <message>
@@ -4145,8 +4145,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Запазени права (C) 2009-%i Bitcoin Core разработчици</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Spice Core Developers</source>
-        <translation>Запазени права (C) 2014-%i Spice Core разработчиците</translation>
+        <source>Copyright (C) 2014-%i The Dune Spice Developers</source>
+        <translation>Запазени права (C) 2014-%i Dune Spice разработчиците</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -4165,8 +4165,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Грешка при зареждане %s: Не може да изключите HD на вече съществуващ HD портфейл</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Spice Core</source>
-        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на Spice Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dune Spice</source>
+        <translation>Грешка при зареждане на wallet.dat: портфейлът изисква по-нова версия на Dune Spice</translation>
     </message>
     <message>
         <source>Failed to load fulfilled requests cache from</source>
@@ -4225,7 +4225,7 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Spice Core is shutting down.</source>
+        <source>Initialization sanity check failed. Dune Spice is shutting down.</source>
         <translation>Инициализационната проверка не успешна. Spice ядрото се изключва.</translation>
     </message>
     <message>
@@ -4481,7 +4481,7 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>User Agent comment (%s) съдържа опасни символи.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Spice Core to complete</source>
+        <source>Wallet needed to be rewritten: restart Dune Spice to complete</source>
         <translation>Портфейлът трябва да бъде презаписан: рестартирайте Spice за да завършите</translation>
     </message>
     <message>
@@ -4613,8 +4613,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Максимална крайна такса (в %s) използвана в единична транзакция, ако е зададена твърде малка, няма да бъдат възможни големи транзакции (по подразбиране: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Spice Core will not work properly.</source>
-        <translation>Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, Spice Core няма да работи правилно.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Dune Spice will not work properly.</source>
+        <translation>Моля проверете дали датата и часът на вашият компютър са верни! Ако часовникът ви не е сверен, Dune Spice няма да работи правилно.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>

@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The Spice Core developers
+// Copyright (c) 2014-2017 The Dune Spice developers
 
 #include "cachemultimap.h"
 

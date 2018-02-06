@@ -188,8 +188,8 @@
         <translation>Ví đã được mã hoá.</translation>
     </message>
     <message>
-        <source>Spice Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spices from being stolen by malware infecting your computer.</source>
-        <translation>Spice Core sẽ được đóng lại để hoàn thành quá trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ spice của bạn khỏi bị ăn cắp bởi việc máy tính của bạn nhiễm mã độc.</translation>
+        <source>Dune Spice will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spices from being stolen by malware infecting your computer.</source>
+        <translation>Dune Spice sẽ được đóng lại để hoàn thành quá trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ spice của bạn khỏi bị ăn cắp bởi việc máy tính của bạn nhiễm mã độc.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,12 +242,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Spice Core can no longer continue safely and will quit.</source>
-        <translation>Có lỗi nghiêm trọng xảy ra. Spice Core không thể tiếp tục một cách an toàn được nên phải thoát ra.</translation>
+        <source>A fatal error occurred. Dune Spice can no longer continue safely and will quit.</source>
+        <translation>Có lỗi nghiêm trọng xảy ra. Dune Spice không thể tiếp tục một cách an toàn được nên phải thoát ra.</translation>
     </message>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -306,12 +306,12 @@
         <translation>Thoát ứng dụng</translation>
     </message>
     <message>
-        <source>&amp;About Spice Core</source>
-        <translation>&amp;Về Spice Core</translation>
+        <source>&amp;About Dune Spice</source>
+        <translation>&amp;Về Dune Spice</translation>
     </message>
     <message>
-        <source>Show information about Spice Core</source>
-        <translation>Hiển thị thông tin về Spice Core</translation>
+        <source>Show information about Dune Spice</source>
+        <translation>Hiển thị thông tin về Dune Spice</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -326,8 +326,8 @@
         <translation>&amp;Tuỳ chọn...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Spice Core</source>
-        <translation>Thay đổi các tuỳ chọn cấu hình cho Spice Core</translation>
+        <source>Modify configuration options for Dune Spice</source>
+        <translation>Thay đổi các tuỳ chọn cấu hình cho Dune Spice</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -482,8 +482,8 @@
         <translation>&amp;Các Tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
-        <source>Show the Spice Core help message to get a list with possible Spice Core command-line options</source>
-        <translation>Hiển thị thông tin hướng dẫn Spice Core để lấy một danh sách các tuỳ chọn dòng lệnh có thể dùng với Spice Core</translation>
+        <source>Show the Dune Spice help message to get a list with possible Dune Spice command-line options</source>
+        <translation>Hiển thị thông tin hướng dẫn Dune Spice để lấy một danh sách các tuỳ chọn dòng lệnh có thể dùng với Dune Spice</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
@@ -514,8 +514,8 @@
         <translation>Bảng Thanh công cụ</translation>
     </message>
     <message>
-        <source>Spice Core client</source>
-        <translation>Phần mềm Spice Core</translation>
+        <source>Dune Spice client</source>
+        <translation>Phần mềm Dune Spice</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Spice network</source>
@@ -982,8 +982,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>version</source>
@@ -994,8 +994,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Spice Core</source>
-        <translation>Về Spice Core</translation>
+        <source>About Dune Spice</source>
+        <translation>Về Dune Spice</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1053,16 +1053,16 @@
         <translation>Chào mừng</translation>
     </message>
     <message>
-        <source>Welcome to Spice Core.</source>
-        <translation>Chào mừng đến với Spice Core.</translation>
+        <source>Welcome to Dune Spice.</source>
+        <translation>Chào mừng đến với Dune Spice.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Spice Core will store its data.</source>
-        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Spice Core sẽ lưu dữ liệu.</translation>
+        <source>As this is the first time the program is launched, you can choose where Dune Spice will store its data.</source>
+        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Dune Spice sẽ lưu dữ liệu.</translation>
     </message>
     <message>
-        <source>Spice Core will download and store a copy of the Spice block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Spice Core sẽ tải và lưu một bản của sổ cái Spice. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
+        <source>Dune Spice will download and store a copy of the Spice block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Dune Spice sẽ tải và lưu một bản của sổ cái Spice. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1073,8 +1073,8 @@
         <translation>Sử dụng thư mục dữ liệu tuỳ chọn:</translation>
     </message>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1325,12 +1325,12 @@
         <translation>&amp;Ví</translation>
     </message>
     <message>
-        <source>Automatically start Spice Core after logging in to the system.</source>
-        <translation>Tự động khởi động Spice Core sau khi đăng nhập vào hệ thống.</translation>
+        <source>Automatically start Dune Spice after logging in to the system.</source>
+        <translation>Tự động khởi động Dune Spice sau khi đăng nhập vào hệ thống.</translation>
     </message>
     <message>
-        <source>&amp;Start Spice Core on system login</source>
-        <translation>Khởi động Spice Core khi đăng nhập hệ thống</translation>
+        <source>&amp;Start Dune Spice on system login</source>
+        <translation>Khởi động Dune Spice khi đăng nhập hệ thống</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1377,8 +1377,8 @@
         <translation>Số lượng này hoạt động như là một ngưỡng để tắt PrivateSend khi nó được chạm tới.</translation>
     </message>
     <message>
-        <source>Automatically open the Spice Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Tự động mở cổng cho phần mềm Spice Core trên rounter. Điều này chỉ hoạt động được khi rounter của bạn hỗ trợ UpnP và tính năng đó được bật lên.</translation>
+        <source>Automatically open the Dune Spice client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Tự động mở cổng cho phần mềm Dune Spice trên rounter. Điều này chỉ hoạt động được khi rounter của bạn hỗ trợ UpnP và tính năng đó được bật lên.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1401,8 +1401,8 @@
         <translation>Thu nhỏ thay vì thoát khỏi ứng dụng khi cửa sổ được đóng lại. Khi tuỳ chọn này được bật, ứng dụng sẽ được đóng chỉ sau khi chọn chức năng Thoát trên menu.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Spice Core.</source>
-        <translation>Ngôn ngữa giao diện có thể được chọn ở đây. Tuỳ chọn này có tác dụng ngay sau khi bạn khởi động lại phần mềm Spice Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Dune Spice.</source>
+        <translation>Ngôn ngữa giao diện có thể được chọn ở đây. Tuỳ chọn này có tác dụng ngay sau khi bạn khởi động lại phần mềm Dune Spice.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1969,8 +1969,8 @@ https://www.transifex.com/projects/p/spice/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1989,8 +1989,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Lỗi khi đọc file cấu hình masternode: %1</translation>
     </message>
     <message>
-        <source>Spice Core didn't yet exit safely...</source>
-        <translation>Spice Core đã bị tắt không an toàn...</translation>
+        <source>Dune Spice didn't yet exit safely...</source>
+        <translation>Dune Spice đã bị tắt không an toàn...</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -2163,8 +2163,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Bộ nhớ sử dụng</translation>
     </message>
     <message>
-        <source>Open the Spice Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Mở file theo dõi lỗi Spice Core từ trong thư mục dữ liệu hiện tại. Nó có thể mất vài giây cho những file log lớn.</translation>
+        <source>Open the Dune Spice debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Mở file theo dõi lỗi Dune Spice từ trong thư mục dữ liệu hiện tại. Nó có thể mất vài giây cho những file log lớn.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2379,8 +2379,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>&amp;Bor</translation>
     </message>
     <message>
-        <source>Welcome to the Spice Core RPC console.</source>
-        <translation>Chào mừng đến với bảng điều khiển Spice Core RPC</translation>
+        <source>Welcome to the Dune Spice RPC console.</source>
+        <translation>Chào mừng đến với bảng điều khiển Dune Spice RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -3025,8 +3025,8 @@ https://www.transifex.com/projects/p/spice/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Spice Core is shutting down...</source>
-        <translation>Spice Core đang được tắt...</translation>
+        <source>Dune Spice is shutting down...</source>
+        <translation>Dune Spice đang được tắt...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3179,8 +3179,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>[mạng thử]</translation>
     </message>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3191,8 +3191,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Spice Core developers</source>
-        <translation>Nhóm phát triển Spice Core</translation>
+        <source>The Dune Spice developers</source>
+        <translation>Nhóm phát triển Dune Spice</translation>
     </message>
 </context>
 <context>
@@ -3789,8 +3789,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Liên kết với địa chỉ nhất định và luôn luôn lắng nghe trên đó. Sử dụng ký hiệu [host]:port cho IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Spice Core is probably already running.</source>
-        <translation>Không nhận được một khoá trong thư mục %s. Spice Core có thể đã đang chạy.</translation>
+        <source>Cannot obtain a lock on data directory %s. Dune Spice is probably already running.</source>
+        <translation>Không nhận được một khoá trong thư mục %s. Dune Spice có thể đã đang chạy.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3829,8 +3829,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Đây là phiên bản chưa chính thức - hãy dùng và tự chấp nhận mạo hiểm - đừng dùng để đào coin hoặc các ứng dụng thương mại.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Spice Core is probably already running.</source>
-        <translation>Không thể để ràng buộc vào %s trên máy tính này. Spice Core có thể đã chạy.</translation>
+        <source>Unable to bind to %s on this computer. Dune Spice is probably already running.</source>
+        <translation>Không thể để ràng buộc vào %s trên máy tính này. Dune Spice có thể đã chạy.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4145,8 +4145,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Bản quyền (C) 2009-%i bởi Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Spice Core Developers</source>
-        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Spice Core</translation>
+        <source>Copyright (C) 2014-%i The Dune Spice Developers</source>
+        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Dune Spice</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -4165,8 +4165,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Lỗi khi tải %s: Bạn có thể tắt HD trên ví đã có HD.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Spice Core</source>
-        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Spice Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dune Spice</source>
+        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Dune Spice</translation>
     </message>
     <message>
         <source>Failed to load fulfilled requests cache from</source>
@@ -4225,8 +4225,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Thông tin</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Spice Core is shutting down.</source>
-        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Spice Core đang được tắt.</translation>
+        <source>Initialization sanity check failed. Dune Spice is shutting down.</source>
+        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Dune Spice đang được tắt.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4481,8 +4481,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Bình luận User Agent (%s) có chứa những ký tự không an toàn.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Spice Core to complete</source>
-        <translation>Ví cần được ghi lại: khởi động lại Spice Core để hoàn tất</translation>
+        <source>Wallet needed to be rewritten: restart Dune Spice to complete</source>
+        <translation>Ví cần được ghi lại: khởi động lại Dune Spice để hoàn tất</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4613,8 +4613,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Tổng phí tối đa (trong %s) để sử dụng trong một giao dịch đơn; thiết lập tham số này quá thấp có thể khiến bỏ qua những giao dịch lớn (ngầm định: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Spice Core will not work properly.</source>
-        <translation>Hãy kiểm tra ngày giờ trên máy tính của bạn để đảm bảo chúng được chính xác. Nếu đồng hồ của bạn không đúng Spice Core sẽ hoạt động không chính xác.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Dune Spice will not work properly.</source>
+        <translation>Hãy kiểm tra ngày giờ trên máy tính của bạn để đảm bảo chúng được chính xác. Nếu đồng hồ của bạn không đúng Dune Spice sẽ hoạt động không chính xác.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>

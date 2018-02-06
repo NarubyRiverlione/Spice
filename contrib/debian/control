@@ -35,7 +35,7 @@ Description: peer-to-peer network based digital currency - daemon
  Spice is an experimental new digital currency that enables anonymous, instant
  payments to anyone, anywhere in the world. Spice uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Spice Core
+ and issuing money are carried out collectively by the network. Dune Spice
  is the name of the open source software which enables the use of this currency.
  .
  This package provides the daemon, spiced, and the CLI tool
@@ -48,7 +48,7 @@ Description: peer-to-peer network based digital currency - Qt GUI
  Spice is an experimental new digital currency that enables anonymous, instant
  payments to anyone, anywhere in the world. Spice uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Spice Core
+ and issuing money are carried out collectively by the network. Dune Spice
  is the name of the open source software which enables the use of this currency.
  .
  This package provides Spice-Qt, a GUI for Spice based on Qt.
@@ -60,7 +60,7 @@ Description: peer-to-peer digital currency - standalone transaction tool
  Spice is an experimental new digital currency that enables anonymous, instant
  payments to anyone, anywhere in the world. Spice uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Spice Core
+ and issuing money are carried out collectively by the network. Dune Spice
  is the name of the open source software which enables the use of this currency.
  .
  This package provides spice-tx, a command-line transaction creation

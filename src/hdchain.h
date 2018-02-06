@@ -1,4 +1,4 @@
-// Copyright (c) 2014-2017 The Spice Core developers
+// Copyright (c) 2014-2017 The Dune Spice developers
 // Distributed under the MIT software license, see the accompanying
 #ifndef SPICE_HDCHAIN_H
 #define SPICE_HDCHAIN_H

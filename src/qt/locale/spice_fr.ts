@@ -188,8 +188,8 @@
         <translation>Portefeuille chiffré</translation>
     </message>
     <message>
-        <source>Spice Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spices from being stolen by malware infecting your computer.</source>
-        <translation>Spice Core va maintenant se fermer pour que le chiffrage soit terminé. N'oubliez pas : chiffrer votre portefeuille n'empêcherait pas vos spices d'être volés par un logiciel malveillant qui infecterait votre ordinateur.</translation>
+        <source>Dune Spice will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spices from being stolen by malware infecting your computer.</source>
+        <translation>Dune Spice va maintenant se fermer pour que le chiffrage soit terminé. N'oubliez pas : chiffrer votre portefeuille n'empêcherait pas vos spices d'être volés par un logiciel malveillant qui infecterait votre ordinateur.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -242,12 +242,12 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>A fatal error occurred. Spice Core can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Dune Spice can no longer continue safely and will quit.</source>
         <translation>Une erreur fatale est survenue. Spice ne peut plus continuer de façon sûre et va s'arrêter.</translation>
     </message>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -306,12 +306,12 @@
         <translation>Quitter l’application</translation>
     </message>
     <message>
-        <source>&amp;About Spice Core</source>
-        <translation>À propos de Spice Core</translation>
+        <source>&amp;About Dune Spice</source>
+        <translation>À propos de Dune Spice</translation>
     </message>
     <message>
-        <source>Show information about Spice Core</source>
-        <translation>Affichez des informations à propos de  Spice Core</translation>
+        <source>Show information about Dune Spice</source>
+        <translation>Affichez des informations à propos de  Dune Spice</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -326,8 +326,8 @@
         <translation>&amp;Options...</translation>
     </message>
     <message>
-        <source>Modify configuration options for Spice Core</source>
-        <translation>Modifier les options de configuration de Spice Core</translation>
+        <source>Modify configuration options for Dune Spice</source>
+        <translation>Modifier les options de configuration de Dune Spice</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -482,8 +482,8 @@
         <translation>Options de ligne de &amp;commande</translation>
     </message>
     <message>
-        <source>Show the Spice Core help message to get a list with possible Spice Core command-line options</source>
-        <translation>Afficher l'aide Spice Core pour voir une liste des options possibles en ligne de commande</translation>
+        <source>Show the Dune Spice help message to get a list with possible Dune Spice command-line options</source>
+        <translation>Afficher l'aide Dune Spice pour voir une liste des options possibles en ligne de commande</translation>
     </message>
     <message>
         <source>&amp;PrivateSend information</source>
@@ -514,8 +514,8 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
-        <source>Spice Core client</source>
-        <translation>Client Spice Core </translation>
+        <source>Dune Spice client</source>
+        <translation>Client Dune Spice </translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Spice network</source>
@@ -982,8 +982,8 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>version</source>
@@ -994,8 +994,8 @@
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Spice Core</source>
-        <translation>À propos de Spice Core</translation>
+        <source>About Dune Spice</source>
+        <translation>À propos de Dune Spice</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1053,16 +1053,16 @@
         <translation>Bienvenue</translation>
     </message>
     <message>
-        <source>Welcome to Spice Core.</source>
-        <translation>Bienvenue dans Spice Core</translation>
+        <source>Welcome to Dune Spice.</source>
+        <translation>Bienvenue dans Dune Spice</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Spice Core will store its data.</source>
-        <translation>Comme il s'agit du premier lancement du logiciel, vous pouvez choisir l'emplacement où Spice Core sauvegardera ses données.</translation>
+        <source>As this is the first time the program is launched, you can choose where Dune Spice will store its data.</source>
+        <translation>Comme il s'agit du premier lancement du logiciel, vous pouvez choisir l'emplacement où Dune Spice sauvegardera ses données.</translation>
     </message>
     <message>
-        <source>Spice Core will download and store a copy of the Spice block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Spice Core téléchargera et sauvegardera une copie de la chaîne de blocs Spice. Au moins %1 Go de données seront sauvegardés dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
+        <source>Dune Spice will download and store a copy of the Spice block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Dune Spice téléchargera et sauvegardera une copie de la chaîne de blocs Spice. Au moins %1 Go de données seront sauvegardés dans ce répertoire, et cette taille augmentera avec le temps. Le portefeuille sera aussi sauvegardé dans ce répertoire.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1073,8 +1073,8 @@
         <translation>Utiliser un répertoire de données personnalisé :</translation>
     </message>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1325,12 +1325,12 @@
         <translation>&amp;Portefeuille</translation>
     </message>
     <message>
-        <source>Automatically start Spice Core after logging in to the system.</source>
-        <translation>Lancer automatiquement Spice Core après connexion à cet ordinateur.</translation>
+        <source>Automatically start Dune Spice after logging in to the system.</source>
+        <translation>Lancer automatiquement Dune Spice après connexion à cet ordinateur.</translation>
     </message>
     <message>
-        <source>&amp;Start Spice Core on system login</source>
-        <translation>&amp;Lancer Spice Core au démarrage</translation>
+        <source>&amp;Start Dune Spice on system login</source>
+        <translation>&amp;Lancer Dune Spice au démarrage</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
@@ -1377,8 +1377,8 @@
         <translation>Ce montant agit comme seuil de désactivation de PrivateSend, une fois atteint.</translation>
     </message>
     <message>
-        <source>Automatically open the Spice Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir automatiquement le port du client Spice Core sur le routeur. Cela ne fonctionne que si votre routeur supporte UPnP et est activé.</translation>
+        <source>Automatically open the Dune Spice client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir automatiquement le port du client Dune Spice sur le routeur. Cela ne fonctionne que si votre routeur supporte UPnP et est activé.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1401,8 +1401,8 @@
         <translation>Minimiser l'application (au lieu de la quitter) quand la fenêtre est fermée. Si cette option est activée, l'application se fermera uniquement en passant par le menu Quitter.</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Spice Core.</source>
-        <translation>La langue de l'interface peut être choisie ici. Ce réglage prendra effet après le redémarrage de Spice Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Dune Spice.</source>
+        <translation>La langue de l'interface peut être choisie ici. Ce réglage prendra effet après le redémarrage de Dune Spice.</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items.&lt;br/&gt;%s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -1969,8 +1969,8 @@ https://www.transifex.com/projects/p/spice/</translation>
 <context>
     <name>QObject</name>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1989,8 +1989,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Erreur de lecture du fichier de configuration du masternode : %1</translation>
     </message>
     <message>
-        <source>Spice Core didn't yet exit safely...</source>
-        <translation>Spice Core ne s'est pas encore arrêté en toute sécurité...</translation>
+        <source>Dune Spice didn't yet exit safely...</source>
+        <translation>Dune Spice ne s'est pas encore arrêté en toute sécurité...</translation>
     </message>
     <message>
         <source>Amount</source>
@@ -2163,8 +2163,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Utilisation mémoire</translation>
     </message>
     <message>
-        <source>Open the Spice Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvre le fichier de debug Spice Core depuis le répertoire de données actuel. Cela peut prendre plusieurs secondes si le fichier de debug est volumineux.</translation>
+        <source>Open the Dune Spice debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ouvre le fichier de debug Dune Spice depuis le répertoire de données actuel. Cela peut prendre plusieurs secondes si le fichier de debug est volumineux.</translation>
     </message>
     <message>
         <source>&amp;Console</source>
@@ -2379,8 +2379,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Dé&amp;bannir</translation>
     </message>
     <message>
-        <source>Welcome to the Spice Core RPC console.</source>
-        <translation>Bienvenue sur la console RPC de Spice Core.</translation>
+        <source>Welcome to the Dune Spice RPC console.</source>
+        <translation>Bienvenue sur la console RPC de Dune Spice.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -3025,8 +3025,8 @@ https://www.transifex.com/projects/p/spice/</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Spice Core is shutting down...</source>
-        <translation>Arrêt de Spice Core...</translation>
+        <source>Dune Spice is shutting down...</source>
+        <translation>Arrêt de Dune Spice...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3179,8 +3179,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>[réseau de test]</translation>
     </message>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3191,8 +3191,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Les développeurs Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Spice Core developers</source>
-        <translation>Les développeurs Spice Core</translation>
+        <source>The Dune Spice developers</source>
+        <translation>Les développeurs Dune Spice</translation>
     </message>
 </context>
 <context>
@@ -3789,8 +3789,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Se lier à l'adresse donnée et toujours l'écouter. Utilisez la notation [host]:port pour l'IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Spice Core is probably already running.</source>
-        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Spice Core fonctionne probablement déjà.</translation>
+        <source>Cannot obtain a lock on data directory %s. Dune Spice is probably already running.</source>
+        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. Dune Spice fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -3829,8 +3829,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Ceci est une pré-version de test - Veuillez l'utiliser à vos risques et périls - Ne pas l'utiliser pour miner ou pour des applications marchandes</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Spice Core is probably already running.</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur. Spice Core fonctionne probablement déjà.</translation>
+        <source>Unable to bind to %s on this computer. Dune Spice is probably already running.</source>
+        <translation>Impossible de se lier à %s sur cet ordinateur. Dune Spice fonctionne probablement déjà.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4145,8 +4145,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Spice Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Spice Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Dune Spice Developers</source>
+        <translation>Copyright (C) 2014-%i The Dune Spice Developers</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
@@ -4165,8 +4165,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Erreur au chargement de %s : Impossible de désactiver HD sur un portefeuille HD déjà existant</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Spice Core</source>
-        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de Spice Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dune Spice</source>
+        <translation>Erreur au chargement de wallet.dat : le Portefeuille nécessite une nouvelle version de Dune Spice</translation>
     </message>
     <message>
         <source>Failed to load fulfilled requests cache from</source>
@@ -4225,8 +4225,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Informations</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Spice Core is shutting down.</source>
-        <translation>Les tests de cohérences lors de l'initialisation ont échoués. Spice Core est en cours de fermeture.</translation>
+        <source>Initialization sanity check failed. Dune Spice is shutting down.</source>
+        <translation>Les tests de cohérences lors de l'initialisation ont échoués. Dune Spice est en cours de fermeture.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4481,8 +4481,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Le commentaire User Agent (%s) contient des caractères dangereux.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Spice Core to complete</source>
-        <translation>Le portefeuille devait être réécrit : redémarrer Spice Core pour terminer l'opération.</translation>
+        <source>Wallet needed to be rewritten: restart Dune Spice to complete</source>
+        <translation>Le portefeuille devait être réécrit : redémarrer Dune Spice pour terminer l'opération.</translation>
     </message>
     <message>
         <source>Will retry...</source>
@@ -4613,8 +4613,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <translation>Frais totaux maximum (en %s) pour une transaction portefeuille unique; si trop bas, risque d'annulation pour transactions trop volumineuses (par défaut : %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Spice Core will not work properly.</source>
-        <translation>Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, Spice Core ne fonctionnera pas correctement.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Dune Spice will not work properly.</source>
+        <translation>Veuillez vérifier que la date et l'heure de votre ordinateur sont justes ! Si votre horloge n'est pas à l'heure, Dune Spice ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <source>PrivateSend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>

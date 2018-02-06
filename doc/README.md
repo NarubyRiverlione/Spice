@@ -1,7 +1,7 @@
-Spice Core 0.12.1
+Dune Spice 0.12.1
 =====================
 
-This is the official reference wallet for Spice digital currency and comprises the backbone of the Spice peer-to-peer network. You can [download Spice Core](https://www.spice.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Spice digital currency and comprises the backbone of the Spice peer-to-peer network. You can [download Dune Spice](https://www.spice.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
@@ -31,7 +31,7 @@ for help and more information.
 
 Building
 ---------------------
-The following are developer notes on how to build Spice Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Dune Spice on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Spice Core on your native plat
 
 Development
 ---------------------
-The Spice Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Dune Spice repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

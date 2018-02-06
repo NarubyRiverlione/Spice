@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -283,12 +283,12 @@
         <translation>Chiudi applicazione</translation>
     </message>
     <message>
-        <source>&amp;About Spice Core</source>
-        <translation>&amp;Su Spice Core</translation>
+        <source>&amp;About Dune Spice</source>
+        <translation>&amp;Su Dune Spice</translation>
     </message>
     <message>
-        <source>Show information about Spice Core</source>
-        <translation>Mostra la informazione su Spice Core</translation>
+        <source>Show information about Dune Spice</source>
+        <translation>Mostra la informazione su Dune Spice</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -443,16 +443,16 @@
         <translation>Opzioni riga di &amp;comando</translation>
     </message>
     <message>
-        <source>Spice Core client</source>
-        <translation>Cliente Spice Core</translation>
+        <source>Dune Spice client</source>
+        <translation>Cliente Dune Spice</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>Processato %n blocco della cronologia transazioni.</numerusform><numerusform>Processati %n blocchi della cronologia transazioni.</numerusform></translation>
     </message>
     <message>
-        <source>Show the Spice Core help message to get a list with possible Spice command-line options</source>
-        <translation>Mostra il messaggio di aiuto di Spice Core per ottenere una lista con le possibili opzioni di linea di comando di Spice</translation>
+        <source>Show the Dune Spice help message to get a list with possible Spice command-line options</source>
+        <translation>Mostra il messaggio di aiuto di Dune Spice per ottenere una lista con le possibili opzioni di linea di comando di Spice</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -958,16 +958,16 @@ Indirizzo: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versione</translation>
     </message>
     <message>
-        <source>About Spice Core</source>
-        <translation>Su Spice Core</translation>
+        <source>About Dune Spice</source>
+        <translation>Su Dune Spice</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1013,16 +1013,16 @@ Indirizzo: %4
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>Welcome to Spice Core.</source>
-        <translation>Benvenuto in Spice Core</translation>
+        <source>Welcome to Dune Spice.</source>
+        <translation>Benvenuto in Dune Spice</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Spice Core will store its data.</source>
-        <translation>Essendo la prima volta nella quale il programma viene lanciato, puoi scegliere dove Spice Core memorizzerà i propri dati.</translation>
+        <source>As this is the first time the program is launched, you can choose where Dune Spice will store its data.</source>
+        <translation>Essendo la prima volta nella quale il programma viene lanciato, puoi scegliere dove Dune Spice memorizzerà i propri dati.</translation>
     </message>
     <message>
-        <source>Spice Core will download and store a copy of the Spice block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Spice Core scaricherà e salverà una copia della blocco catena. Almeno %1GB di dati sarà immagazzinato in questa cartella e aumenterà col tempo. Anche il portafoglio sarà conservato in questa cartella.</translation>
+        <source>Dune Spice will download and store a copy of the Spice block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Dune Spice scaricherà e salverà una copia della blocco catena. Almeno %1GB di dati sarà immagazzinato in questa cartella e aumenterà col tempo. Anche il portafoglio sarà conservato in questa cartella.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1033,8 +1033,8 @@ Indirizzo: %4
         <translation>Usa una cartella dati personalizzata:</translation>
     </message>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1088,7 +1088,7 @@ Indirizzo: %4
     </message>
     <message>
         <source>Automatically start Spice after logging in to the system.</source>
-        <translation>Esegui automaticamente Spice Core all'avvio del sistema.</translation>
+        <translation>Esegui automaticamente Dune Spice all'avvio del sistema.</translation>
     </message>
     <message>
         <source>&amp;Start Spice on system login</source>
@@ -2428,8 +2428,8 @@ Più URL vengono separati da una barra verticale |.</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Spice Core is shutting down...</source>
-        <translation>Spice Core si sta chiudendo...</translation>
+        <source>Dune Spice is shutting down...</source>
+        <translation>Dune Spice si sta chiudendo...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2578,8 +2578,8 @@ Più URL vengono separati da una barra verticale |.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2590,8 +2590,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Gli sviluppatori di Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Spice Core developers</source>
-        <translation>Gli sviluppatori di Spice Core</translation>
+        <source>The Dune Spice developers</source>
+        <translation>Gli sviluppatori di Dune Spice</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3164,8 +3164,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Associa all'indirizzo indicato e resta permanentemente in ascolto su questo. Usa la notazione [host]:porta per l'IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Spice Core is probably already running.</source>
-        <translation>Impossibile ottenere un blocco sulla data directory %s. Spice Core è probabilmente già in esecuzione.</translation>
+        <source>Cannot obtain a lock on data directory %s. Dune Spice is probably already running.</source>
+        <translation>Impossibile ottenere un blocco sulla data directory %s. Dune Spice è probabilmente già in esecuzione.</translation>
     </message>
     <message>
         <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3220,8 +3220,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Questa versione è una compilazione pre-rilascio - usala a tuo rischio - non utilizzarla per la generazione o per applicazioni di commercio</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Spice Core is probably already running.</source>
-        <translation>Incapace di legare al %s su questo computer. Spice Core è probabilmente già funzionato.</translation>
+        <source>Unable to bind to %s on this computer. Dune Spice is probably already running.</source>
+        <translation>Incapace di legare al %s su questo computer. Dune Spice è probabilmente già funzionato.</translation>
     </message>
     <message>
         <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
@@ -3468,8 +3468,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Errore di connessione al Masternode</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Spice Core</source>
-        <translation>Errore caricando il wallet.dat: il Pertafoglio ha bisogno di una versione di Spice Core piú recente.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dune Spice</source>
+        <translation>Errore caricando il wallet.dat: il Pertafoglio ha bisogno di una versione di Dune Spice piú recente.</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3508,8 +3508,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Informazioni</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Spice Core is shutting down.</source>
-        <translation>Controllo di inizializzazione sanity fallito. Spice Core verrà chiuso.</translation>
+        <source>Initialization sanity check failed. Dune Spice is shutting down.</source>
+        <translation>Controllo di inizializzazione sanity fallito. Dune Spice verrà chiuso.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>

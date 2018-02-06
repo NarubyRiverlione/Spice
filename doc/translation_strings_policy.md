@@ -1,7 +1,7 @@
 Translation Strings Policy
 ===========================
 
-This document provides guidelines for internationalization of the Spice Core software.
+This document provides guidelines for internationalization of the Dune Spice software.
 
 How to translate?
 ------------------

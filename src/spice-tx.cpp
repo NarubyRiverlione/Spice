@@ -52,7 +52,7 @@ static int AppInitRawTx(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("-h") || mapArgs.count("-help"))
     {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Spice Core spice-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Dune Spice spice-tx utility version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
               "  spice-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded spice transaction") + "\n" +
               "  spice-tx [options] -create [commands]   " + _("Create hex-encoded spice transaction") + "\n" +

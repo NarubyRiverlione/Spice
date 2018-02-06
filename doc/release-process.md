@@ -15,7 +15,7 @@ Check out the source code in the following directory hierarchy.
 	git clone https://github.com/devrandom/gitian-builder.git
 	git clone https://github.com/spicepay/spice.git
 
-### Spice Core maintainers/release engineers, update (commit) version in sources
+### Dune Spice maintainers/release engineers, update (commit) version in sources
 
 	pushd ./spice
 	contrib/verifysfbinaries/verify.sh
@@ -86,7 +86,7 @@ NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from 
 ```
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Spice Core for Linux, Windows, and OS X:
+### Build and sign Dune Spice for Linux, Windows, and OS X:
 
 	./bin/gbuild --commit spice=v${VERSION} ../spice/contrib/gitian-descriptors/gitian-linux.yml
 	./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../spice/contrib/gitian-descriptors/gitian-linux.yml

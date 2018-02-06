@@ -152,7 +152,7 @@ testScriptsExt = [
     'p2p-acceptblock.py', # NOTE: needs spice_hash to pass
     'mempool_packages.py',
     'maxuploadtarget.py',
-    # 'replace-by-fee.py', # RBF is disabled in Spice Core
+    # 'replace-by-fee.py', # RBF is disabled in Dune Spice
 ]
 
 def runtests():

@@ -1,7 +1,7 @@
 Masternode config
 =======================
 
-Spice Core allows controlling multiple remote masternodes from a single wallet. The wallet needs to have a valid collateral output of 1000 coins for each masternode and uses a configuration file named `masternode.conf` which can be found in the following data directory (depending on your operating system):
+Dune Spice allows controlling multiple remote masternodes from a single wallet. The wallet needs to have a valid collateral output of 1000 coins for each masternode and uses a configuration file named `masternode.conf` which can be found in the following data directory (depending on your operating system):
  * Windows: %APPDATA%\SpiceCore\
  * Mac OS: ~/Library/Application Support/SpiceCore/
  * Unix/Linux: ~/.spicecore/

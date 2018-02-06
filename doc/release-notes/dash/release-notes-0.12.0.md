@@ -2,7 +2,7 @@
 ====================
 
 
-Spice Core version 0.12.0 is now available from:
+Dune Spice version 0.12.0 is now available from:
 
   https://spicepay.io/downloads
 
@@ -28,7 +28,7 @@ Downgrade warning
 
 Because release 0.12.0 and later makes use of headers-first synchronization and
 parallel block download (see further), the block files and databases are not
-backwards-compatible with pre-0.12 versions of Spice Core or other software:
+backwards-compatible with pre-0.12 versions of Dune Spice or other software:
 
 * Blocks will be stored on disk out of order (in the order they are
 received, really), which makes it incompatible with some tools or

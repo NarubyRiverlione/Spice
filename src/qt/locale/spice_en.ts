@@ -237,8 +237,8 @@
     </message>
     <message>
         <location line="-57"/>
-        <source>Spice Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spices from being stolen by malware infecting your computer.</source>
-        <translation>Spice Core will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spices from being stolen by malware infecting your computer.</translation>
+        <source>Dune Spice will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spices from being stolen by malware infecting your computer.</source>
+        <translation>Dune Spice will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your spices from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -310,14 +310,14 @@
     <name>BitcoinGUI</name>
     <message>
         <location filename="../spice.cpp" line="+542"/>
-        <source>A fatal error occurred. Spice Core can no longer continue safely and will quit.</source>
-        <translation>A fatal error occurred. Spice Core can no longer continue safely and will quit.</translation>
+        <source>A fatal error occurred. Dune Spice can no longer continue safely and will quit.</source>
+        <translation>A fatal error occurred. Dune Spice can no longer continue safely and will quit.</translation>
     </message>
     <message>
         <location filename="../bitcoingui.cpp" line="+130"/>
         <location line="+988"/>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <location line="-979"/>
@@ -391,13 +391,13 @@
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;About Spice Core</source>
-        <translation>&amp;About Spice Core</translation>
+        <source>&amp;About Dune Spice</source>
+        <translation>&amp;About Dune Spice</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Spice Core</source>
-        <translation>Show information about Spice Core</translation>
+        <source>Show information about Dune Spice</source>
+        <translation>Show information about Dune Spice</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -416,8 +416,8 @@
     </message>
     <message>
         <location line="+1"/>
-        <source>Modify configuration options for Spice Core</source>
-        <translation>Modify configuration options for Spice Core</translation>
+        <source>Modify configuration options for Dune Spice</source>
+        <translation>Modify configuration options for Dune Spice</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -611,8 +611,8 @@
     </message>
     <message>
         <location line="+2"/>
-        <source>Show the Spice Core help message to get a list with possible Spice Core command-line options</source>
-        <translation>Show the Spice Core help message to get a list with possible Spice Core command-line options</translation>
+        <source>Show the Dune Spice help message to get a list with possible Dune Spice command-line options</source>
+        <translation>Show the Dune Spice help message to get a list with possible Dune Spice command-line options</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -651,8 +651,8 @@
     </message>
     <message>
         <location line="+168"/>
-        <source>Spice Core client</source>
-        <translation>Spice Core client</translation>
+        <source>Dune Spice client</source>
+        <translation>Dune Spice client</translation>
     </message>
     <message numerus="yes">
         <location line="+200"/>
@@ -1239,8 +1239,8 @@
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+37"/>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1255,8 +1255,8 @@
     </message>
     <message>
         <location line="+5"/>
-        <source>About Spice Core</source>
-        <translation>About Spice Core</translation>
+        <source>About Dune Spice</source>
+        <translation>About Dune Spice</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1328,18 +1328,18 @@
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Spice Core.</source>
-        <translation>Welcome to Spice Core.</translation>
+        <source>Welcome to Dune Spice.</source>
+        <translation>Welcome to Dune Spice.</translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Spice Core will store its data.</source>
-        <translation>As this is the first time the program is launched, you can choose where Spice Core will store its data.</translation>
+        <source>As this is the first time the program is launched, you can choose where Dune Spice will store its data.</source>
+        <translation>As this is the first time the program is launched, you can choose where Dune Spice will store its data.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Spice Core will download and store a copy of the Spice block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Spice Core will download and store a copy of the Spice block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>Dune Spice will download and store a copy of the Spice block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Dune Spice will download and store a copy of the Spice block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1353,8 +1353,8 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+88"/>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1675,13 +1675,13 @@
     </message>
     <message>
         <location line="-104"/>
-        <source>Automatically start Spice Core after logging in to the system.</source>
-        <translation>Automatically start Spice Core after logging in to the system.</translation>
+        <source>Automatically start Dune Spice after logging in to the system.</source>
+        <translation>Automatically start Dune Spice after logging in to the system.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Spice Core on system login</source>
-        <translation>&amp;Start Spice Core on system login</translation>
+        <source>&amp;Start Dune Spice on system login</source>
+        <translation>&amp;Start Dune Spice on system login</translation>
     </message>
     <message>
         <location line="+123"/>
@@ -1740,8 +1740,8 @@
     </message>
     <message>
         <location line="+60"/>
-        <source>Automatically open the Spice Core client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Spice Core client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Dune Spice client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Dune Spice client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1770,8 +1770,8 @@
     </message>
     <message>
         <location line="+45"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Spice Core.</source>
-        <translation>The user interface language can be set here. This setting will take effect after restarting Spice Core.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Dune Spice.</source>
+        <translation>The user interface language can be set here. This setting will take effect after restarting Dune Spice.</translation>
     </message>
     <message>
         <location line="+99"/>
@@ -2530,8 +2530,8 @@ https://www.transifex.com/projects/p/spice/</translation>
         <location line="+7"/>
         <location line="+15"/>
         <location line="+19"/>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <location line="-40"/>
@@ -2555,8 +2555,8 @@ https://www.transifex.com/projects/p/spice/</translation>
     </message>
     <message>
         <location line="+48"/>
-        <source>Spice Core didn&apos;t yet exit safely...</source>
-        <translation>Spice Core didn&apos;t yet exit safely...</translation>
+        <source>Dune Spice didn&apos;t yet exit safely...</source>
+        <translation>Dune Spice didn&apos;t yet exit safely...</translation>
     </message>
     <message>
         <location filename="../bitcoinunits.cpp" line="+233"/>
@@ -2821,8 +2821,8 @@ https://www.transifex.com/projects/p/spice/</translation>
     </message>
     <message>
         <location line="+48"/>
-        <source>Open the Spice Core debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open the Spice Core debug log file from the current data directory. This can take a few seconds for large log files.</translation>
+        <source>Open the Dune Spice debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open the Dune Spice debug log file from the current data directory. This can take a few seconds for large log files.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -3099,8 +3099,8 @@ https://www.transifex.com/projects/p/spice/</translation>
     </message>
     <message>
         <location line="+188"/>
-        <source>Welcome to the Spice Core RPC console.</source>
-        <translation>Welcome to the Spice Core RPC console.</translation>
+        <source>Welcome to the Dune Spice RPC console.</source>
+        <translation>Welcome to the Dune Spice RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3923,8 +3923,8 @@ https://www.transifex.com/projects/p/spice/</translation>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+71"/>
-        <source>Spice Core is shutting down...</source>
-        <translation>Spice Core is shutting down...</translation>
+        <source>Dune Spice is shutting down...</source>
+        <translation>Dune Spice is shutting down...</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4123,8 +4123,8 @@ https://www.transifex.com/projects/p/spice/</translation>
     </message>
     <message>
         <location filename="../splashscreen.cpp" line="+45"/>
-        <source>Spice Core</source>
-        <translation>Spice Core</translation>
+        <source>Dune Spice</source>
+        <translation>Dune Spice</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4138,8 +4138,8 @@ https://www.transifex.com/projects/p/spice/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The Spice Core developers</source>
-        <translation>The Spice Core developers</translation>
+        <source>The Dune Spice developers</source>
+        <translation>The Dune Spice developers</translation>
     </message>
 </context>
 <context>
@@ -4909,8 +4909,8 @@ https://www.transifex.com/projects/p/spice/</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Cannot obtain a lock on data directory %s. Spice Core is probably already running.</source>
-        <translation>Cannot obtain a lock on data directory %s. Spice Core is probably already running.</translation>
+        <source>Cannot obtain a lock on data directory %s. Dune Spice is probably already running.</source>
+        <translation>Cannot obtain a lock on data directory %s. Dune Spice is probably already running.</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -4959,8 +4959,8 @@ https://www.transifex.com/projects/p/spice/</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. Spice Core is probably already running.</source>
-        <translation>Unable to bind to %s on this computer. Spice Core is probably already running.</translation>
+        <source>Unable to bind to %s on this computer. Dune Spice is probably already running.</source>
+        <translation>Unable to bind to %s on this computer. Dune Spice is probably already running.</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -5354,8 +5354,8 @@ https://www.transifex.com/projects/p/spice/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Spice Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Spice Core Developers</translation>
+        <source>Copyright (C) 2014-%i The Dune Spice Developers</source>
+        <translation>Copyright (C) 2014-%i The Dune Spice Developers</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5379,8 +5379,8 @@ https://www.transifex.com/projects/p/spice/</translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Spice Core</source>
-        <translation>Error loading wallet.dat: Wallet requires newer version of Spice Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Dune Spice</source>
+        <translation>Error loading wallet.dat: Wallet requires newer version of Dune Spice</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -5454,8 +5454,8 @@ https://www.transifex.com/projects/p/spice/</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Spice Core is shutting down.</source>
-        <translation>Initialization sanity check failed. Spice Core is shutting down.</translation>
+        <source>Initialization sanity check failed. Dune Spice is shutting down.</source>
+        <translation>Initialization sanity check failed. Dune Spice is shutting down.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5774,8 +5774,8 @@ https://www.transifex.com/projects/p/spice/</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Wallet needed to be rewritten: restart Spice Core to complete</source>
-        <translation>Wallet needed to be rewritten: restart Spice Core to complete</translation>
+        <source>Wallet needed to be rewritten: restart Dune Spice to complete</source>
+        <translation>Wallet needed to be rewritten: restart Dune Spice to complete</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -5939,8 +5939,8 @@ https://www.transifex.com/projects/p/spice/</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Spice Core will not work properly.</source>
-        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong Spice Core will not work properly.</translation>
+        <source>Please check that your computer&apos;s date and time are correct! If your clock is wrong Dune Spice will not work properly.</source>
+        <translation>Please check that your computer&apos;s date and time are correct! If your clock is wrong Dune Spice will not work properly.</translation>
     </message>
     <message>
         <location line="+3"/>

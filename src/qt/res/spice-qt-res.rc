@@ -19,13 +19,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Spice"
-            VALUE "FileDescription",    "Spice Core (GUI node for Spice)"
+            VALUE "FileDescription",    "Dune Spice (GUI node for Spice)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "spice-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "spice-qt.exe"
-            VALUE "ProductName",        "Spice Core"
+            VALUE "ProductName",        "Dune Spice"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

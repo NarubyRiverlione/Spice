@@ -1,4 +1,4 @@
-Spice Core version 0.12.2
+Dune Spice version 0.12.2
 ========================
 
 Release is now available from:
@@ -391,12 +391,12 @@ the 0.8.x tree and was first released on Mar/13/2014.
 Darkcoin tree 0.10.x used to be the closed source implementation of Darksend
 which was released open source on Sep/25/2014.
 
-Spice Core tree 0.11.x was a fork of Bitcoin Core tree 0.9, Darkcoin was rebranded
+Dune Spice tree 0.11.x was a fork of Bitcoin Core tree 0.9, Darkcoin was rebranded
 to Spice.
 
-Spice Core tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
+Dune Spice tree 0.12.0.x was a fork of Bitcoin Core tree 0.10.
 
-Spice Core tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
+Dune Spice tree 0.12.1.x was a fork of Bitcoin Core tree 0.12.
 
 These release are considered obsolete. Old changelogs can be found here:
 
