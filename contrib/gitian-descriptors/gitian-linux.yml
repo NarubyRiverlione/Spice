@@ -1,5 +1,5 @@
 ---
-name: "spice-linux-0.12"
+name: "spice-linux-0.0.5"
 enable_cache: true
 suites:
 - "trusty"

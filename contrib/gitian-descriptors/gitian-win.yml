@@ -1,5 +1,5 @@
 ---
-name: "spice-win-0.12"
+name: "spice-win-0.0.5"
 enable_cache: true
 suites:
 - "trusty"
