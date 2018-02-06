@@ -13,7 +13,7 @@ can be found in the contrib/init folder.
 1. Service User
 ---------------------------------
 
-All three Linux startup configurations assume the existence of a "spicecore" user
+All three Linux startup configurations assume the existence of a "dunespice" user
 and group.  They must be created before attempting to use these scripts.
 The OS X configuration assumes spiced will be set up for the current user.
 
@@ -54,15 +54,15 @@ see `contrib/debian/examples/spice.conf`.
 All three configurations assume several paths that might need to be adjusted.
 
 Binary:              `/usr/bin/spiced`  
-Configuration file:  `/etc/spicecore/spice.conf`  
+Configuration file:  `/etc/dunespice/spice.conf`  
 Data directory:      `/var/lib/spiced`  
 PID file:            `/var/run/spiced/spiced.pid` (OpenRC and Upstart) or `/var/lib/spiced/spiced.pid` (systemd)  
 Lock file:           `/var/lock/subsys/spiced` (CentOS)  
 
 The configuration file, PID directory (if applicable) and data directory
-should all be owned by the spicecore user and group.  It is advised for security
+should all be owned by the dunespice user and group.  It is advised for security
 reasons to make the configuration file and data directory only readable by the
-spicecore user and group.  Access to spice-cli and other spiced rpc clients
+dunespice user and group.  Access to spice-cli and other spiced rpc clients
 can then be controlled by group membership.
 
 3b) Mac OS X
@@ -116,7 +116,7 @@ This Launch Agent will cause spiced to start whenever the user logs in.
 
 NOTE: This approach is intended for those wanting to run spiced as the current user.
 You will need to modify org.spice.spiced.plist if you intend to use it as a
-Launch Daemon with a dedicated spicecore user.
+Launch Daemon with a dedicated dunespice user.
 
 5. Auto-respawn
 -----------------------------------

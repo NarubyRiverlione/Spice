@@ -734,8 +734,8 @@ boost::filesystem::path static GetAutostartFilePath()
 {
     std::string chain = ChainNameFromCommandLine();
     if (chain == CBaseChainParams::MAIN)
-        return GetAutostartDir() / "spicecore.desktop";
-    return GetAutostartDir() / strprintf("spicecore-%s.lnk", chain);
+        return GetAutostartDir() / "dunespice.desktop";
+    return GetAutostartDir() / strprintf("dunespice-%s.lnk", chain);
 }
 
 bool GetStartOnSystemStartup()
@@ -774,7 +774,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         if (!optionFile.good())
             return false;
         std::string chain = ChainNameFromCommandLine();
-        // Write a spicecore.desktop file to the autostart directory:
+        // Write a dunespice.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
         if (chain == CBaseChainParams::MAIN)

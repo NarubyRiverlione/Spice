@@ -38,7 +38,7 @@ def determine_db_dir():
         return os.path.expanduser("~/Library/Application Support/SpiceCore/")
     elif platform.system() == "Windows":
         return os.path.join(os.environ['APPDATA'], "SpiceCore")
-    return os.path.expanduser("~/.spicecore")
+    return os.path.expanduser("~/.dunespice")
 
 def read_bitcoin_config(dbdir):
     """Read the spice.conf file from dbdir, returns dictionary of settings"""

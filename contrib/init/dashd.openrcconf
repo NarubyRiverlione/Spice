@@ -1,7 +1,7 @@
 # /etc/conf.d/spiced: config file for /etc/init.d/spiced
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/spicecore/spice.conf"
+#BITCOIND_CONFIGFILE="/etc/dunespice/spice.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
 #BITCOIND_PIDDIR="/var/run/spiced"
@@ -13,8 +13,8 @@
 #BITCOIND_DATADIR="/var/lib/spiced"
 
 # User and group to own spiced process
-#BITCOIND_USER="spicecore"
-#BITCOIND_GROUP="spicecore"
+#BITCOIND_USER="dunespice"
+#BITCOIND_GROUP="dunespice"
 
 # Path to spiced executable
 #BITCOIND_BIN="/usr/bin/spiced"

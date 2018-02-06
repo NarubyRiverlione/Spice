@@ -519,7 +519,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\SpiceCore
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\SpiceCore
     // Mac: ~/Library/Application Support/SpiceCore
-    // Unix: ~/.spicecore
+    // Unix: ~/.dunespice
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "SpiceCore";
@@ -535,7 +535,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "Library/Application Support/SpiceCore";
 #else
     // Unix
-    return pathRet / ".spicecore";
+    return pathRet / ".dunespice";
 #endif
 #endif
 }

@@ -3,13 +3,13 @@ Description=Spice's distributed currency daemon
 After=network.target
 
 [Service]
-User=spicecore
-Group=spicecore
+User=dunespice
+Group=dunespice
 
 Type=forking
 PIDFile=/var/lib/spiced/spiced.pid
 ExecStart=/usr/bin/spiced -daemon -pid=/var/lib/spiced/spiced.pid \
--conf=/etc/spicecore/spice.conf -datadir=/var/lib/spiced -disablewallet
+-conf=/etc/dunespice/spice.conf -datadir=/var/lib/spiced -disablewallet
 
 Restart=always
 PrivateTmp=true
