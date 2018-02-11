@@ -50,9 +50,9 @@ Var StartMenuGroup
 # Installer attributes
 OutFile @abs_top_srcdir@/dunespice-${VERSION}-win@WINDOWS_BITS@-setup.exe
 !if "@WINDOWS_BITS@" == "64"
-InstallDir $PROGRAMFILES64\SpiceCore
+InstallDir $PROGRAMFILES64\DuneSpice
 !else
-InstallDir $PROGRAMFILES\SpiceCore
+InstallDir $PROGRAMFILES\DuneSpice
 !endif
 CRCCheck on
 XPStyle on

@@ -516,13 +516,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\SpiceCore
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\SpiceCore
-    // Mac: ~/Library/Application Support/SpiceCore
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\DuneSpice
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\DuneSpice
+    // Mac: ~/Library/Application Support/DuneSpice
     // Unix: ~/.dunespice
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "SpiceCore";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "DuneSpice";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -532,7 +532,7 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/SpiceCore";
+    return pathRet / "Library/Application Support/DuneSpice";
 #else
     // Unix
     return pathRet / ".dunespice";

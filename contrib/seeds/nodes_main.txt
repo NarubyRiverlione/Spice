@@ -1,3 +1,1 @@
 # main seed nodes
-
-192.168.0.1
