@@ -35,9 +35,9 @@ def check_json_precision():
 def determine_db_dir():
     """Return the default location of the Dune Spice data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/SpiceCore/")
+        return os.path.expanduser("~/Library/Application Support/DuneSpice/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "SpiceCore")
+        return os.path.join(os.environ['APPDATA'], "DuneSpice")
     return os.path.expanduser("~/.dunespice")
 
 def read_bitcoin_config(dbdir):

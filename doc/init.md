@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/spiced`  
-Configuration file:  `~/Library/Application Support/SpiceCore/spice.conf`  
-Data directory:      `~/Library/Application Support/SpiceCore`
-Lock file:           `~/Library/Application Support/SpiceCore/.lock`
+Configuration file:  `~/Library/Application Support/DuneSpice/spice.conf`  
+Data directory:      `~/Library/Application Support/DuneSpice`
+Lock file:           `~/Library/Application Support/DuneSpice/.lock`
 
 4. Installing Service Configuration
 -----------------------------------
