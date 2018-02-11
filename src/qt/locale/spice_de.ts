@@ -3029,7 +3029,7 @@ Dies kann passieren, wenn einige Spice aus ihrer Wallet bereits ausgegeben wurde
     <name>ShutdownWindow</name>
     <message>
         <source>Dune Spice is shutting down...</source>
-        <translation>Spice-Core wird herunter gefahren...</translation>
+        <translation>Dune-Spice wird herunter gefahren...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
