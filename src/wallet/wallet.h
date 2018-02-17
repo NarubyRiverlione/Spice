@@ -80,14 +80,14 @@ class CWalletTx;
 /** (client) version numbers for particular wallet features */
 enum WalletFeature
 {
-    FEATURE_BASE = 00100, // the earliest version new wallets supports (only useful for getinfo's clientversion output)
+    FEATURE_BASE = 00500, // the earliest version new wallets supports (only useful for getinfo's clientversion output)
 
-    FEATURE_WALLETCRYPT = 40000, // wallet encryption
-    FEATURE_COMPRPUBKEY = 60000, // compressed public keys
-    FEATURE_HD = 120200,    // Hierarchical key derivation after BIP32 (HD Wallet), BIP44 (multi-coin), BIP39 (mnemonic)
+    FEATURE_WALLETCRYPT = 00600, // 4000 wallet encryption
+    FEATURE_COMPRPUBKEY = 00600, // 6000 compressed public keys
+    FEATURE_HD = 120200,    // 120200 Hierarchical key derivation after BIP32 (HD Wallet), BIP44 (multi-coin), BIP39 (mnemonic)
                             // which uses on-the-fly private key derivation
 
-    FEATURE_LATEST = 00100
+    FEATURE_LATEST = 00500
 };
 
 enum AvailableCoinsType

@@ -144,7 +144,7 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x12282df2183a26057ab9d4e24ca4cbcf80f7027e7997a78142e42b9cd80391c8"));
 
 
-        vSeeds.push_back(CDNSSeedData("dunespice.eu", "dnsseed.dunespice.eu"));
+        vSeeds.push_back(CDNSSeedData("spicedune.online", "dnsseed.spicedune.online"));
 
         // Spice addresses start with 'S'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,55);
@@ -211,10 +211,10 @@ public:
         consensus.BIP34Height = 1;
         consensus.BIP34Hash = uint256S("0x0000047d24635e347be3aaaeb66c26be94901a2f962feccd4f95090191f208c1");
         consensus.powLimit = uint256S("00000fffff000000000000000000000000000000000000000000000000000000");
-        consensus.nPowTargetTimespan = 24 * 60 * 60; // Spice: 1 day
+        consensus.nPowTargetTimespan = 30 * 60; // Spice: 0.5 hour
         consensus.nPowTargetSpacing = 1 * 60; // Spice:1 minutes
         consensus.fPowAllowMinDifficultyBlocks = true;
-        consensus.fPowNoRetargeting = false;
+        consensus.fPowNoRetargeting = true; // false
         consensus.nPowKGWHeight = 4001; // nPowKGWHeight >= nPowDGWHeight means "no KGW"
         consensus.nPowDGWHeight = 4001;
         consensus.nRuleChangeActivationThreshold = 1512; // 75% for testchains
@@ -251,14 +251,14 @@ public:
         nDelayGetHeadersTime = 24 * 60 * 60;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1518348260UL, 1745805UL, 0x1e0ffff0, 1, 10 * COIN);
+        genesis = CreateGenesisBlock(1518873000UL, 66567UL, 0x1e0ffff0, 1, 10 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000e111982bfbbe255a37a1225133ee608eca7e14a77749e015f63ccfad791"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000c3ab3dfd4d2534e5ea4c89501815514a5ef3e1c39831ae785faf0d9fede"));
         assert(genesis.hashMerkleRoot == uint256S("0x12282df2183a26057ab9d4e24ca4cbcf80f7027e7997a78142e42b9cd80391c8"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("dunespice.eu",  "testnet-dunespice.eu"));
+        vSeeds.push_back(CDNSSeedData("spicedune.online",  "testnet-spicedune.online"));
 
         // Testnet Spice addresses start with 'p'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,117);
@@ -288,8 +288,8 @@ public:
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            (0, uint256S("0x00000e111982bfbbe255a37a1225133ee608eca7e14a77749e015f63ccfad791")),
-            1518348260, // *  UNIX timestamp of last checkpoint block
+            (0, uint256S("0x00000c3ab3dfd4d2534e5ea4c89501815514a5ef3e1c39831ae785faf0d9fede")),
+            1518873000, // *  UNIX timestamp of last checkpoint block
             0,          // *  total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             0           // *  estimated number of transactions per day after checkpoint
@@ -359,9 +359,9 @@ public:
         nDefaultPort = 3965;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1518348260, 0, 0x207fffff, 1, 10 * COIN);
+        genesis = CreateGenesisBlock(1518873000, 2, 0x207fffff, 1, 10 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x08599ef6bd528c096a3186b1f94ae24f843a9174d8fdbfda9e681d3334e6c2e9"));
+        assert(consensus.hashGenesisBlock == uint256S("0x48824cd54750ddf6d36591ff945e8c9db0634d9024ef9d36bd833b409e68f517"));
         assert(genesis.hashMerkleRoot == uint256S("0x12282df2183a26057ab9d4e24ca4cbcf80f7027e7997a78142e42b9cd80391c8"));
 
         vFixedSeeds.clear(); //! Regtest mode doesn't have any fixed seeds.
@@ -377,8 +377,8 @@ public:
 
         checkpointData = (CCheckpointData){
             boost::assign::map_list_of
-            ( 0, uint256S("0x08599ef6bd528c096a3186b1f94ae24f843a9174d8fdbfda9e681d3334e6c2e9")),
-            1518348260,
+            ( 0, uint256S("0x48824cd54750ddf6d36591ff945e8c9db0634d9024ef9d36bd833b409e68f517")),
+            1518873000,
             0,
             0
         };

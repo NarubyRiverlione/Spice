@@ -1,3 +1,2 @@
-# List of fixed seed nodes for testnet
-
-
+188.226.168.63:2965
+172.118.43.251:3000
