@@ -197,11 +197,11 @@ public:
         consensus.nMasternodePaymentsIncreasePeriod = 50;
         consensus.nInstantSendKeepLock = 6;
         consensus.nBudgetPaymentsStartBlock = 1800;
-        consensus.nBudgetPaymentsCycleBlocks = 100;
+        consensus.nBudgetPaymentsCycleBlocks = 60; //v0.0.6=  100
         consensus.nBudgetPaymentsWindowBlocks = 10;
-        consensus.nBudgetProposalEstablishingTime = 60*20;
+        consensus.nBudgetProposalEstablishingTime = 10; // v0.0.6 = 60*20
         consensus.nSuperblockStartBlock = 2000; // NOTE: Should satisfy nSuperblockStartBlock > nBudgetPeymentsStartBlock
-        consensus.nSuperblockCycle = 24; // Superblocks can be issued hourly on testnet
+        consensus.nSuperblockCycle = 60; //v0/0/6 = 24 Superblocks can be issued hourly on testnet
         consensus.nGovernanceMinQuorum = 1;
         consensus.nGovernanceFilterElements = 500;
         consensus.nMasternodeMinimumConfirmations = 1;
@@ -258,7 +258,7 @@ public:
 
         vFixedSeeds.clear();
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("spicedune.online",  "testnet-spicedune.online"));
+        vSeeds.push_back(CDNSSeedData("spicedune.online",  "testnet-seed.spicedune.online"));
 
         // Testnet Spice addresses start with 'p'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,117);
